@@ -6,12 +6,12 @@ function comparis(){
     let c = document.getElementById("numero3").value ;
 
 
-    
-    
     //comparison options//
 
-    if(a >= b && a >= c) 
-    document.getElementById("result").innerHTML = a + ">" + b + ">" + c;
+
+
+    if(a >= b &&  a >= c && b > c ) 
+    document.getElementById("result").innerHTML = a  + ">" + b + ">" + c;
     else if(b >= a && b >= c  )
     document.getElementById("result").innerHTML = b ;
     else if(c >= a && c >= b )
