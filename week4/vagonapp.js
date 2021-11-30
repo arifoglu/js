@@ -5,83 +5,102 @@
 // if user click on the others button the results will change
 
  
-let sayac = 0 ;
-let sonuc = document.getElementById("vagon1").addEventListener("click" , function(){document.getElementById("result").innerHTML = "You didnt find it He is far away" ;
-vagon1.style.backgroundColor = "red"});
-
-while (sayac < 4){
-  sonuc += +sayac ;
-  sayac++ ;
-}
-if (sonuc > 4){
-  document.getElementById("result").innerHTML = "GAME OVER"
-}
-
- //for (let tiklama = 0; tiklama < 5; tiklama++){}
+let  clicks = 0 ;
 
 
-function dogru(){
-  document.getElementById("result").innerHTML = "Congratulations you found it" ; 
-  vagon7.style.backgroundColor = "rgb(79, 238, 79)"
-}
 function uzak1(){
-  document.getElementById("result").innerHTML = "You didnt find it He is far away" ;
-  vagon1.style.backgroundColor = "red"
+  clicks += 1;
+  document.getElementById("result").innerHTML = "You didnt find it He is far away" + "<br>" + clicks ;
+  vagon1.style.backgroundColor = "red";
+  if (clicks > 3)
+  document.getElementById("clicksnumber").innerHTML = "GAME OVER AHMET HAS GONE";
+  if (clicks > 4)
+  alert("!!!DONT TRY IT!!! ");
+
 }
+
 function uzak2(){
-  document.getElementById("result").innerHTML = "You didnt find it He is far away" ;
-  vagon2.style.backgroundColor = "red"
+  clicks += 1;
+  document.getElementById("result").innerHTML = "You didnt find it He is far away" + "<br>" + clicks ;
+  vagon2.style.backgroundColor = "red";
+  if (clicks > 3)
+  document.getElementById("clicksnumber").innerHTML = "GAME OVER AHMET HAS GONE";
+  if (clicks > 4)
+  alert("!!!DONT TRY IT!!! ");
 }
 function uzak3(){
-  document.getElementById("result").innerHTML = "You didnt find it He is forward" ;
-  vagon3.style.backgroundColor = "yellow"
+  clicks += 1;
+  document.getElementById("result").innerHTML = "You didnt find it He is forward"+ "<br>"  + clicks  ;
+  vagon3.style.backgroundColor = "yellow";
+  if (clicks > 3)
+  document.getElementById("clicksnumber").innerHTML = "GAME OVER AHMET HAS GONE";
+  if (clicks > 4)
+  alert("!!!DONT TRY IT!!! ");
 }
 function uzak4(){
-  document.getElementById("result").innerHTML = "You didnt find it He is forward" ;
-  vagon4.style.backgroundColor = "yellow"
+  clicks += 1;
+  document.getElementById("result").innerHTML = "You didnt find it He is forward"  + "<br>" + clicks ;
+  vagon4.style.backgroundColor = "yellow";
+  if (clicks > 3)
+  document.getElementById("clicksnumber").innerHTML = "GAME OVER AHMET HAS GONE";
+  if (clicks > 4)
+  alert("!!!DONT TRY IT!!! ");
 }
 function uzak5(){
-  document.getElementById("result").innerHTML = "You came close He is forward" ;
-  vagon5.style.backgroundColor = "yellow"
+  clicks += 1;
+  document.getElementById("result").innerHTML = "You came close He is forward" + "<br>" + clicks ;
+  vagon5.style.backgroundColor = "yellow";
+  if (clicks > 3)
+  document.getElementById("clicksnumber").innerHTML = "GAME OVER AHMET HAS GONE";
+  if (clicks > 4)
+  alert("!!!DONT TRY IT!!! ");
 }
 function uzak6(){
-  document.getElementById("result").innerHTML = "You didnt find it He is back" ;
-  vagon10.style.backgroundColor = "red"
+  clicks += 1;
+  document.getElementById("result").innerHTML = "You didnt find it He is back" + "<br>" + clicks  ;
+  vagon10.style.backgroundColor = "red";
+  if (clicks > 3)
+  document.getElementById("clicksnumber").innerHTML = "GAME OVER AHMET HAS GONE";
+  if (clicks > 4)
+  alert("!!!DONT TRY IT!!! ");
+}
+
+function dogru(){
+  clicks += 1;
+  document.getElementById("result").innerHTML = "<strong>!!!Congratulations You found it !!!" ;
+  vagon7.style.backgroundColor = "rgb(79, 238, 79)";
+   if (clicks > 4)
+  alert("!!!DONT TRY IT!!! ");
+
 }
 
 function yakin1(){
-  document.getElementById("result").innerHTML = "You came close.look at forward " ;
-  vagon6.style.backgroundColor = "yellow"
+  clicks += 1;
+  document.getElementById("result").innerHTML = "You came close.look at forward " + "<br>" + clicks  ;
+  vagon6.style.backgroundColor = "yellow";
+  if (clicks > 3)
+  document.getElementById("clicksnumber").innerHTML = "GAME OVER AHMET HAS GONE";
+  if (clicks > 4)
+  alert("!!!DONT TRY IT!!! ");
 }
 function yakin2(){
-  document.getElementById("result").innerHTML = "You came close.look at back" ;
-  vagon8.style.backgroundColor = "yellow"
+  clicks += 1;
+  document.getElementById("result").innerHTML = "You came close.look at back" + "<br>" + clicks ;
+  vagon8.style.backgroundColor = "yellow";
+  if (clicks > 3)
+  document.getElementById("clicksnumber").innerHTML = "GAME OVER AHMET HAS GONE";
+  if (clicks > 4)
+  alert("!!!DONT TRY IT!!! ");
 }
 function yakin3(){
-  document.getElementById("result").innerHTML = "You came close.look at back" ;
-  vagon9.style.backgroundColor = "yellow"
+  clicks += 1;
+  document.getElementById("result").innerHTML = "You came close.look at back" + "<br>" + clicks ;
+  vagon9.style.backgroundColor = "yellow";
+  if (clicks > 3)
+  document.getElementById("clicksnumber").innerHTML = "GAME OVER AHMET HAS GONE";
+  if (clicks > 4)
+  alert("!!!DONT TRY IT!!! ");
 }
-
-
-
-
-// let sayac = 0;
-// let text = "GAME OVER" ;
-// while (sayac < 5){
-//    text +=  +sayac ;
-//  sayac++ ;
-// }
-
-//const container = document.querySelector("#container");
-
-//console.log(container)
-
-//container.addEventListener("click",function(){
-  //  container.style.backgroundColor="red"
-    //container.style.left="600px"
-// })
-
-
 
 
 
