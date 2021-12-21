@@ -5,7 +5,7 @@
 //fonksiyonu cagir ;
 //console ile yazdir   ve kontrol et !!!
 
-//hayvanlarin listesi
+//hayvanlarin listesini hazirla
 let hayvanlar = ["inek","tavuk","domuz","tavuk","koyun","inek","koyun","inek","inek","koyun"];
 
 //hayvanlarin kac tane oldugunun tespiti console ile kontrolu
