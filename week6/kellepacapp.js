@@ -29,4 +29,4 @@ function pacabul(uygun1,uygun2){
 }
 
 let tespit = pacabul(inekSayisi,koyunSayisi);
-console.log("kelle paca icin uygun bacak Sayisi" ,tespit);
+console.log("kelle paca icin uygun bacak SAyisi" ,tespit);
