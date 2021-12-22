@@ -6,27 +6,27 @@
 //console ile yazdir   ve kontrol et !!!
 
 //hayvanlarin listesini hazirla
-let hayvanlar = ["inek","tavuk","domuz","tavuk","koyun","inek","koyun","inek","inek","koyun"];
+const  hayvanlar = ["inek","tavuk","domuz","tavuk","koyun","inek","koyun","inek","inek","koyun"];
 
 //hayvanlarin kac tane oldugunun tespiti console ile kontrolu
-let ineksayisi = hayvanlar.filter(x => x == "inek").length;
-let koyunsayisi = hayvanlar.filter(x => x == "koyun").length;
-let tavuksayisi = hayvanlar.filter(x => x == "domuz").length;
-let domuzsayisi = hayvanlar.filter(x => x == "tavuk").length;
+let inekSayisi = hayvanlar.filter(x => x == "inek").length;
+let koyunSayisi = hayvanlar.filter(x => x == "koyun").length;
+let tavukSayisi = hayvanlar.filter(x => x == "domuz").length;
+let domuzSayisi = hayvanlar.filter(x => x == "tavuk").length;
  
-
-console.log("ineksayisi" ,ineksayisi);
-console.log("koyunsayisi" , koyunsayisi);
-console.log("domuzsayisi" ,domuzsayisi);
-console.log("tavuksayisi" , tavuksayisi);
+// const inekbacaksayisi = 
+console.log("ineksayisi" ,inekSayisi);
+console.log("koyunsayisi" , koyunSayisi);
+console.log("domuzsayisi" ,domuzSayisi);
+console.log("tavuksayisi" , tavukSayisi);
 
 //kellepaca icin uygun paca sayilarinin tespiti
-
+//
 function pacabul(uygun1,uygun2){
     let necipusta = (uygun1 + uygun2)*4 ;
     return necipusta ;
 
 }
 
-let tespit = pacabul(ineksayisi,koyunsayisi);
-console.log("kelle paca icin uygun bacak sayisi" ,tespit);
+let tespit = pacabul(inekSayisi,koyunSayisi);
+console.log("kelle paca icin uygun bacak Sayisi" ,tespit);
