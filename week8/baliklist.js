@@ -145,3 +145,13 @@ const fishFarm = [
                                                          
 // console.log(dayaniklibalik);
 
+//balikstogu
+// const stoklist = fishFarm.map((kilo)=>kilo.stockVolumeInKg)
+
+// let toplam = 0 ;
+
+// stokmiktari = stoklist.map((element)=> toplam+=Number(element))
+
+// console.log(stoklist); 
+// console.log(toplam);
+
