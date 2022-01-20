@@ -1,0 +1,31 @@
+/* battery columns were designed */
+body{
+    background-color:rgb(86, 131, 41);
+}
+
+#buton{
+    display: flex ;
+    justify-content: center;
+    
+}
+
+#battery{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#arti{
+    background-color: rgb(155, 251, 10);
+}
+
+#eksi{
+    background-color: rgb(250, 35, 35);
+}
+
+.bolum{
+    
+    width: 60px;
+    height: 60px;
+}
