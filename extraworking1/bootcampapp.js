@@ -54,7 +54,7 @@
 
 //let isimlistesi = ["ali","veli","ahmet","hasan","ferda","kemal","lokman"]
 
- //let rastgelesecer = Math.floor(Math.random()*7);
+ //let rastgelesecer = isimlistes [Math.floor(Math.random()* isimlistesi.length];
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
